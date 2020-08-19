@@ -29,7 +29,7 @@ try
   print 'スタッフ一覧<br/><br/>';
 
   // formで飛び先を設定
-  print '<form method="post action="staff_edit.php">';
+  print '<form method="post" action="staff_edit.php">';
   while(true)
   {
     // $stmtから1レコード取り出している
